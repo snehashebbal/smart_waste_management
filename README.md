@@ -122,3 +122,11 @@ const GEMINI_API_KEY = 'YOUR_KEY_HERE';  // ← PASTE YOUR GEMINI API KEY HERE
 ## Demo Credentials
 
 For the Collector Portal login, use **any** Worker ID and password — the demo accepts all entries.
+
+
+## Team Visionary Twins | CMR INSTITUTE OF TECHNOLOGY
+Members:
+Sneha S Hebbal
+Soumya
+Srujan Mankar
+Thanmayi P
