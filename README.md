@@ -126,7 +126,11 @@ For the Collector Portal login, use **any** Worker ID and password — the demo 
 
 ## Team Visionary Twins | CMR INSTITUTE OF TECHNOLOGY
 Members:
-Sneha S Hebbal\n
-Soumya\n
-Srujan Mankar\n
+
+Sneha S Hebbal
+
+Soumya
+
+Srujan Mankar
+
 Thanmayi P
