@@ -4,7 +4,7 @@ A complete **software-only** simulation of a smart waste management system with 
 
 ---
 
-## 📁 Project Structure (Frontend / Backend Separated)
+## Project Structure (Frontend / Backend Separated)
 
 ```
 waste_mangement/
@@ -19,7 +19,7 @@ waste_mangement/
 │
 ├── backend/                    ← BACKEND (3D engine, data, logic, API, SQLite)
 │   ├── three.min.js            ← Offline Three.js 3D WebGL graphics library
-│   ├── bin_twin_3d.js          ← ⭐ 3D Digital Dustbin Twin Engine (physics, flaps, CV scan, re-routing)
+│   ├── bin_twin_3d.js          ← 3D Digital Dustbin Twin Engine (physics, flaps, CV scan, re-routing)
 │   ├── config.js               ← API keys (Gemini AI)
 │   ├── data.js                 ← State store, sample waste catalog, 3D drop recording
 │   ├── api.js                  ← GenAI educational guidance & Python backend sync
@@ -40,7 +40,7 @@ waste_mangement/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Double-click** `index.html` to open in your browser
 2. That's it — no server, no npm, no build step needed!
@@ -49,7 +49,7 @@ waste_mangement/
 
 ---
 
-## 🔑 Where to Add API Key (for real Gemini AI reports)
+## Where to Add API Key (for real Gemini AI reports)
 
 Open **`backend/config.js`** and paste your key on line 12:
 
@@ -63,29 +63,29 @@ const GEMINI_API_KEY = 'YOUR_KEY_HERE';  // ← PASTE YOUR GEMINI API KEY HERE
 
 ---
 
-## 📋 Pages & Features
+## Pages & Features
 
-### 1. 📊 Dashboard
+### 1. Dashboard
 - 4 stat cards: Smart Bins count, Segregation Score, Active Alerts, Recycled %
 - SVG locality map with colour-coded bins (green < 50%, amber 50-80%, red > 80%)
 - Locality leaderboard with scores and trends
 - Recycling & Processing Units status bars
 - GenAI report generation (daily summary + "what-if add 1 truck" scenario)
 
-### 2. 🗑️ Smart Bin CV (Computer Vision)
+### 2. Smart Bin CV (Computer Vision)
 - 4 colour-coded bins: Wet (green), Dry (blue), Hazardous (red), Non-Recyclable (black)
 - Photo upload with drag & drop
 - Simulated CV classification with confidence bar
 - Wrong-sort detection → alert + score penalty
 - Recent scans gallery
 
-### 3. 🚛 Collector Portal
+### 3. Collector Portal
 - Login with role selection (Official Worker / Waste Picker)
 - Bin alerts when fill > 60%
 - Accept pickup → QR code scan simulation → weigh-in at drop-off
 - Pickup history with status tracking
 
-### 4. 🗺️ Waste Tracking
+### 4. Waste Tracking
 - Day lifecycle timeline (fill → collect → refill → alert → deliver)
 - Animated SVG flow diagram: Households → Smart Bins → Trucks → 4 Destinations
 - Active workers list with online/offline status
@@ -94,7 +94,7 @@ const GEMINI_API_KEY = 'YOUR_KEY_HERE';  // ← PASTE YOUR GEMINI API KEY HERE
 
 ---
 
-## ⏩ Simulation Controls
+## Simulation Controls
 
 - **Clock** (sidebar): Shows simulated time starting at 6:00 AM
 - **"Advance 1 hr" button**: Fast-forwards time, triggering:
@@ -106,7 +106,7 @@ const GEMINI_API_KEY = 'YOUR_KEY_HERE';  // ← PASTE YOUR GEMINI API KEY HERE
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
